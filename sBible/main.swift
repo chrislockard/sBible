@@ -8,4 +8,8 @@
 import Foundation
 
 print("Hello, World!")
+fetch_verse(reference: "Ref", version: String(2))
 
+func fetch_verse(reference: String, version: String) {
+    print("I will fetch \(reference) from \(version)")
+}
